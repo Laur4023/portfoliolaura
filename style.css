@@ -78,9 +78,13 @@
         grid-template-rows: auto;
         grid-template-areas: 
         "main main main main"
-        "content1 content1 content2 content2"
-        "content3 content3 content4 content4"
+        ". content1 content1 ."
+        ". content2 content2 ."
+        ". content3 content3 ."
+        ". content4 content4 ."
+        ". button button ."
         "content5 content5 content5 content5"
+        "content6 content6 content7 content7"
         "footer footer footer footer";
     }
     main{
@@ -103,9 +107,21 @@
         background-color: darkorchid;
         grid-area: content4;
     }
+    .button{
+        background-color: indigo;
+        grid-area: button;
+    }
     #content5{
         background-color: deeppink;
         grid-area: content5;
+    }
+    #content6{
+        background-color: green;
+        grid-area: content6;
+    }
+    #content7{
+        background-color: dodgerblue;
+        grid-area: content7;
     }
     footer{
         background-color: darkslategray;
