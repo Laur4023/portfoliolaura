@@ -135,15 +135,19 @@
         border-color: rgb(0, 0, 0);
         padding: 0.4rem;
         width: fit-content;
+        font-family: quasimoda;
     }
     #content5{
         background-color: #2E4F68;
         grid-area: content5;
         padding: 2rem;
         margin-top: 0.7rem;
+        height: 15rem;
     }
     #content5 p{
         color: #FDFDFD;
+        margin-top: 0.8em;
+        font-family: quasimoda;
     }
     #content6{
         grid-area: content6;
@@ -166,5 +170,13 @@
         background-color: #464646;
         grid-area: footer;
         height: 6rem;
+    }
+    footer h4{
+        color: #FDFDFD;
+        margin-top: 2.7em;
+        margin-left: 3em;
+        font-size: 0.9em;
+        font-family: fieldwork;
+        font-weight: 100;
     }
 }
