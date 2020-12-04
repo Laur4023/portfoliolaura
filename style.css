@@ -71,4 +71,44 @@
     .links.active{
         display: flex;
     }
+    .container{
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "main main main main"
+        "content1 content1 content2 content2"
+        "content3 content3 content4 content4"
+        "content5 content5 content5 content5"
+        "footer footer footer footer";
+    }
+    main{
+        background-color: aqua;
+        grid-area: main;
+    }
+    #content1{
+        background-color: blue;
+        grid-area: content1;
+    }
+    #content2{
+        background-color: coral;
+        grid-area: content2;
+    }
+    #content3{
+        background-color: darkblue;
+        grid-area: content3;
+    }
+    #content4{
+        background-color: darkorchid;
+        grid-area: content4;
+    }
+    #content5{
+        background-color: deeppink;
+        grid-area: content5;
+    }
+    footer{
+        background-color: darkslategray;
+        grid-area: footer;
+    }
 }
