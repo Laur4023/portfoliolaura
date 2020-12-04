@@ -47,6 +47,7 @@
     border-radius: 10px;
 }
 @media (max-width: 600px){
+    /*navbar start*/
     .menubutton{
         display: flex;
     }
@@ -71,6 +72,8 @@
     .links.active{
         display: flex;
     }
+    /*navbar slut*/
+    /*grid container start*/
     .container{
         display: grid;
         height: 100vh;
@@ -95,28 +98,43 @@
         height: 100%;
     }
     #content1{
-        background-color: blue;
         grid-area: content1;
     }
+    #content1 img{
+        width: 100%;
+        height: 100%;
+    }
     #content2{
-        background-color: coral;
         grid-area: content2;
     }
+    #content2 img{
+        width: 100%;
+        height: 100%;
+    }
     #content3{
-        background-color: darkblue;
         grid-area: content3;
+    }
+    #content3 img{
+        width: 100%;
+        height: 100%;
     }
     #content4{
         background-color: darkorchid;
         grid-area: content4;
     }
     .button{
-        background-color: indigo;
         grid-area: button;
+        text-align: center;
+        border-style: groove;
+        border-color: rgb(0, 0, 0);
     }
     #content5{
         background-color: #2E4F68;
         grid-area: content5;
+        padding: 2rem;
+    }
+    #content5 p{
+        color: #FDFDFD;
     }
     #content6{
         background-color: green;
