@@ -112,7 +112,7 @@
         grid-area: button;
     }
     #content5{
-        background-color: deeppink;
+        background-color: #2E4F68;
         grid-area: content5;
     }
     #content6{
@@ -124,7 +124,7 @@
         grid-area: content7;
     }
     footer{
-        background-color: darkslategray;
+        background-color: #464646;
         grid-area: footer;
     }
 }
