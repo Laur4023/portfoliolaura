@@ -129,8 +129,8 @@
     }
     #content4 video{
         width: 100%;
-        height: 120%;
-        padding-bottom: 4.5rem;
+        height: 100%;
+        padding-bottom: 2.5rem;
     }
     .button{
         grid-area: button;
