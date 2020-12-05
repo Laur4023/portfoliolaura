@@ -64,6 +64,13 @@
 main{
     grid-area: main;
 }
+main p{
+    text-align: center;
+    padding-top: 1.7rem;
+    padding-bottom: 1rem;
+    font-size: 1.7rem;
+    font-family: quasimoda;
+}
 main img{
     width: 100%;
     height: 100%;
@@ -98,6 +105,12 @@ main img{
 }
 #content5{
     grid-area: content5;
+    background-color: #2E4F68;
+    padding: 6rem;   
+}
+#content5 p{
+    color: #FDFDFD;
+    text-align: center;
 }
 #content6{
     grid-area: content6;
@@ -115,6 +128,13 @@ main img{
 }
 footer{
     grid-area: footer;
+    background-color: #464646;
+    height: 7rem;
+}
+footer h4{
+    color: #FDFDFD;
+    margin-left: 5rem;
+    margin-top: 3rem;
 }
 @media (max-width: 667px){
     /*navbar start*/
