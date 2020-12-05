@@ -26,6 +26,9 @@
     color: rgb(0, 0, 0);
     padding: 1rem;
     display: block;
+    margin-right: 1em;
+    border-style: groove;
+    border-color: rgb(0,0,0);
 }
 .links li:hover{
     background-color: rgb(233, 230, 230);
