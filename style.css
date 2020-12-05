@@ -95,13 +95,19 @@
         width: 100%;
         height: 100%;
     }
+    main p{
+        text-align: center;
+        margin-top: 1.5em;
+        font-size: 1.2em;
+        font-family: quasimoda;
+    }
     #content1{
         grid-area: content1;
     }
     #content1 img{
         width: 100%;
         height: 100%;
-        padding-top: 3rem;
+        margin-top: 2rem;
     }
     #content2{
         grid-area: content2;
@@ -109,8 +115,7 @@
     #content2 img{
         width: 100%;
         height: 78%;
-        margin-top: 3rem;
-        margin-left: 0.4rem;
+        margin-top: 2rem;
     }
     #content3{
         grid-area: content3;
@@ -133,6 +138,7 @@
         border-style: groove;
         border-color: rgb(0, 0, 0);
         padding: 0.4rem;
+        margin-top: 0.5rem;
         width: fit-content;
         font-family: quasimoda;
     }
