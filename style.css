@@ -123,6 +123,7 @@ main img{
 #content5 p{
     color: #FDFDFD;
     text-align: center;
+    font-family: quasimoda;
 }
 #content6{
     grid-area: content6;
