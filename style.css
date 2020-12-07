@@ -342,6 +342,7 @@ footer h4{
         text-decoration: underline;
         color: #FDFDFD;
         margin-top: 1rem;
+        font-size: 1.1em;
     }
     .container-galleri a:hover{
         color: rgb(233, 230, 230);
