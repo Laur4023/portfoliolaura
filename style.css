@@ -209,8 +209,10 @@ footer h4{
         grid-template-areas: 
         "main main main main"
         ". pictext pictext ."
-        "content1 content1 content2 content2"
-        "content3 content3 content4 content4"
+        ". content1 content1 ."
+        ". content2 content2 ."
+        ". content3 content3 ." 
+        ". content4 content4 ."
         ". button button ."
         "content5 content5 content5 content5"
         "content6 content6 content7 content7"
