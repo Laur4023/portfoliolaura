@@ -291,9 +291,9 @@ footer h4{
     }
     #content5 p{
         color: #FDFDFD;
-        margin-top: 0.8em;
         font-family: quasimoda;
         text-align: center;
+        font-size: 0.9em;
     }
     #content6{
         grid-area: content6;
@@ -356,6 +356,7 @@ footer h4{
         color: #FDFDFD;
         font-family: quasimoda;
         text-align: center;
+        font-size: 0.9em;
     }
     #tango{
         display: tango;
@@ -375,6 +376,7 @@ footer h4{
         color: #FDFDFD;
         font-family: quasimoda;
         text-align: center;
+        font-size: 0.9em;
     }
     #volta{
         grid-area: volta;
@@ -394,6 +396,7 @@ footer h4{
         color: #FDFDFD;
         font-family: quasimoda;
         text-align: center;
+        font-size: 0.9em;
     }
     #videotema{
         grid-area: videotema;
@@ -413,6 +416,7 @@ footer h4{
         color: #FDFDFD;
         font-family: quasimoda;
         text-align: center;
+        font-size: 0.9em;
     }
     footer{
         background-color: #464646;
