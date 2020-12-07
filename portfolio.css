@@ -60,3 +60,32 @@
 }
 /*navbar slut*/
 /* Grid container start*/
+
+/*Mobile version starter her*/
+@media (max-width: 667px){
+    /*navbar start*/
+    .menubutton{
+        display: flex;
+    }
+    .links{
+        display: none;
+        width: 100%;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .links ul{
+        width: 100%;
+        flex-direction: column;
+    }
+    .links li{
+        text-align: center;
+    }
+    .links li a{
+        padding: .5rem 1rem;
+    }
+    .links.active{
+        display: flex;
+    }
+    }
