@@ -203,7 +203,6 @@ footer h4{
     /*grid container start*/
     .container{
         display: grid;
-        height: 100vh;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: auto;
         grid-template-areas: 
@@ -322,5 +321,45 @@ footer h4{
         font-size: 0.9em;
         font-family: fieldwork;
         font-weight: 100;
+    }
+    .container-galleri{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "rumrejse rumrejse rumrejse rumrejse "
+        "box1 box1 box1 box1"
+        "tango tango tango tango"
+        "box2 box2 box2 box2"
+        "volta volta volta volta"
+        "box3 box3 box3 box3"
+        "videotema videotema videotema videotema"
+        "box4 box4 box4 box4"
+        "footer footer footer footer";
+    }
+    #rumrejse{
+        grid-area: rumrejse;
+    }
+    #rumrejse img{
+        width: 100%;
+        height: 100%;
+    }
+    .box1{
+        grid-area: box1;
+    }
+    #tango{
+        display: tango;
+    }
+    .box2{
+        grid-area: box2;
+    }
+    #volta{
+        grid-area: volta;
+    }
+    .box3{
+        grid-area: box3;
+    }
+    #videotema{
+        grid-area: videotema;
     }
 }
