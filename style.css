@@ -322,6 +322,7 @@ footer h4{
         font-family: fieldwork;
         font-weight: 100;
     }
+    /*Galleri side*/
     .container-galleri{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -346,20 +347,84 @@ footer h4{
     }
     .box1{
         grid-area: box1;
+        background-color: #2E4F68;
+        padding: 1.3rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .box1 p{
+        color: #FDFDFD;
+        font-family: quasimoda;
+        text-align: center;
     }
     #tango{
         display: tango;
     }
+    #tango img{
+        width: 100%;
+        height: 100%;
+    }
     .box2{
         grid-area: box2;
+        background-color: #2E4F68;
+        padding: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .box2 p{
+        color: #FDFDFD;
+        font-family: quasimoda;
+        text-align: center;
     }
     #volta{
         grid-area: volta;
     }
+    #volta img{
+        width: 100%;
+        height: 100%;
+    }
     .box3{
         grid-area: box3;
+        background-color: #2E4F68;
+        padding: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .box3 p{
+        color: #FDFDFD;
+        font-family: quasimoda;
+        text-align: center;
     }
     #videotema{
         grid-area: videotema;
+    }
+    #videotema video{
+        width: 100%;
+        height: 100%;
+    }
+    .box4{
+        grid-area: box4;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding:1.5rem;
+        background-color: #2E4F68;
+    }
+    .box4 p{
+        color: #FDFDFD;
+        font-family: quasimoda;
+        text-align: center;
+    }
+    footer{
+        background-color: #464646;
+        grid-area: footer;
+        height: 6rem;
+    }
+    footer p{
+        color: #FDFDFD;
+        margin-top: 2.7em;
+        margin-left: 3em;
+        font-size: 0.9em;
+        font-family: fieldwork;
+        font-weight: 100;
     }
 }
