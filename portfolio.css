@@ -105,6 +105,10 @@
         "box4 box4 box4 box4"
         "footer footer footer footer";
     }
+    p{
+        color: #FDFDFD;
+        font-family: quasimoda;
+    }
     #content1{
         grid-area: content1;
     }
@@ -188,5 +192,7 @@
     }
     footer h4{
         color: #FDFDFD;
+        font-family: fieldwork;
+        font-size: 0.9em;
     }
     }
