@@ -108,6 +108,7 @@
     p{
         color: #FDFDFD;
         font-family: quasimoda;
+        text-align: center;
     }
     h4{
         text-align: center;
@@ -165,6 +166,7 @@
     .box4{
         grid-area: box4;
         background-color: #2E4F68;
+        margin-top: 1rem;
         padding: 5rem;
     }
     footer{
@@ -177,5 +179,6 @@
         color: #FDFDFD;
         font-family: fieldwork;
         font-size: 0.9em;
+        float: left;
     }
     }
