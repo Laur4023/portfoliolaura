@@ -338,6 +338,14 @@ footer h4{
         "box4 box4 box4 box4"
         "footer footer footer footer";
     }
+    .container-galleri a{
+        text-decoration: underline;
+        color: #FDFDFD;
+        margin-top: 1rem;
+    }
+    .container-galleri a:hover{
+        color: rgb(233, 230, 230);
+    }
     #rumrejse{
         grid-area: rumrejse;
     }
