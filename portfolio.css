@@ -109,18 +109,19 @@
         color: #FDFDFD;
         font-family: quasimoda;
     }
+    h4{
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: 1.3em;  
+        font-family: quasimoda;
+    }
     #content1{
         grid-area: content1;
     }
     #content1 img{
         width: 100%;
         height: 100%;
-    }
-    #content1 h4{
-        text-align: center;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        font-size: 1.3em;
     }
     .box1{
         grid-area: box1;
@@ -130,12 +131,6 @@
     }
     #content2{
         grid-area: content2;
-    }
-    #content2 h4{
-        text-align: center;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        font-size: 1.3em;
     }
     #content2 img{
         width: 100%;
@@ -150,12 +145,6 @@
     #content3{
         grid-area: content3;
     }
-    #content3 h4{
-        text-align: center;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        font-size: 1.3em;   
-    }
     #content3 img{
         width: 100%;
         height: 100%;
@@ -168,12 +157,6 @@
     }
     #content4{
         grid-area: content4;
-    }
-    #content4 h4{
-        text-align: center;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        font-size: 1.3em;
     }
     #content4 video{
         width: 100%;
