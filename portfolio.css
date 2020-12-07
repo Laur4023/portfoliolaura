@@ -88,4 +88,60 @@
     .links.active{
         display: flex;
     }
+    /*Navbar slut*/
+    /*Grid container start*/
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "content1 content1 box1 box1"
+        "content2 content2 box2 box2"
+        "content3 content3 box3 box3"
+        "content4 content4 box4 box4"
+        "footer footer footer footer";
+    }
+    #content1{
+        grid-area: content1;
+    }
+    #content1 img{
+        width: 100%;
+        height: 100%;
+    }
+    .box1{
+        grid-area: box1;
+    }
+    #content2{
+        grid-area: content2;
+    }
+    #content2 img{
+        width: 100%;
+        height: 100%;
+    }
+    .box2{
+        grid-area: box2;
+    }
+    #content3{
+        grid-area: content3;
+    }
+    #content3 img{
+        width: 100%;
+        height: 100%;
+    }
+    .box3{
+        grid-area: box3;
+    }
+    #content4{
+        grid-area: content4;
+    }
+    #content4 video{
+        width: 100%;
+        height: 100%;
+    }
+    .box4{
+        grid-area: box4;
+    }
+    footer{
+        grid-area: footer;
+    }
     }
