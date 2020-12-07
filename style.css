@@ -215,7 +215,8 @@ footer h4{
         ". content4 content4 ."
         ". button button ."
         "content5 content5 content5 content5"
-        "content6 content6 content7 content7"
+        ". content6 content6 ."
+        ". content7 content7 ."
         "footer footer footer footer";
         grid-gap: 0.2rem;
     }
