@@ -295,9 +295,13 @@ footer h4{
         border-color: rgb(0, 0, 0);
         padding: 0.4rem;
         margin-top: 0.5rem;
-        margin-left: 4.7rem;
+        margin-left: 6rem;
         width: fit-content;
         font-family: quasimoda;
+    }
+    .button a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
     }
     #content5{
         background-color: #2E4F68;
