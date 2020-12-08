@@ -494,6 +494,13 @@ footer h4{
 #rumrejse{
     grid-area: rumrejse;
 }
+#rumrejse h4{
+    text-align: center;
+    margin-top: 1.2em;
+    margin-bottom: 1.4em;
+    font-family: fieldwork;
+    font-size: 1.2em;
+}
 #rumrejse img{
     width: 100%;
     height: 100%;
@@ -512,6 +519,13 @@ footer h4{
 }
 #tango{
     grid-area: tango;
+}
+#tango h4{
+    text-align: center;
+    margin-top: 1.2em;
+    margin-bottom: 1.4em;
+    font-family: fieldwork;
+    font-size: 1.2em;
 }
 #tango img{
     width: 100%;
@@ -532,6 +546,13 @@ footer h4{
 #volta{
     grid-area: volta;
 }
+#volta h4{
+    text-align: center;
+    margin-top: 1.2em;
+    margin-bottom: 1.4em;
+    font-family: fieldwork;
+    font-size: 1.2em;
+}
 #volta img{
     width: 100%;
     height: 100%;
@@ -550,6 +571,13 @@ footer h4{
 }
 #videotema{
     grid-area: videotema;
+}
+#videotema h4{
+    text-align: center;
+    margin-top: 1.2em;
+    margin-bottom: 1.4em;
+    font-family: fieldwork;
+    font-size: 1.2em;
 }
 #videotema video{
     width: 100%;
@@ -571,5 +599,13 @@ footer h4{
 }
 footer{
     grid-area: footer;
+}
+footer p{
+    color: #FDFDFD;
+    margin-top: 2.7em;
+    margin-left: 3em;
+    font-size: 0.9em;
+    font-family: fieldwork;
+    font-weight: 100;
 }
 }
