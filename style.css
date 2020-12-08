@@ -488,12 +488,12 @@ footer h4{
 }
 .container-galleri a{
     text-decoration: underline;
-    color: #FDFDFD;
+    color: rgb(0, 0, 0);
     margin-top: 1rem;
     font-size: 1.1em;
 }
 .container-galleri a:hover{
-    color: rgb(233, 230, 230);
+    color: #2E4F68;
 }
 #rumrejse{
     grid-area: rumrejse;
@@ -511,15 +511,17 @@ footer h4{
 }
 .box1{
     grid-area: box1;
-    background-color: #2E4F68;
     margin-top: 1.2rem;
     margin-right: 5rem;
     padding: 1rem;
 }
 .box1 p{
-    color: #FDFDFD;
+    color: rgb(0, 0, 0);
     text-align: center;
-    margin-top: 2em;
+    margin-top: 6em;
+    border-style: groove;
+    border-color: rgb(0, 0, 0);
+    font-family: quasimoda;
 }
 #tango{
     grid-area: tango;
@@ -537,15 +539,17 @@ footer h4{
 }
 .box2{
     grid-area: box2;
-    background-color: #2E4F68;
     margin-top: 1.2rem;
     margin-right: 5rem;
     padding: 1rem;
 }
 .box2 p{
-    color: #FDFDFD;
+    color: rgb(0, 0, 0);
     text-align: center;
-    margin-top: 2em;
+    margin-top: 6em;
+    border-style: groove;
+    border-color: rgb(0, 0, 0);
+    font-family: quasimoda;
 }
 #volta{
     grid-area: volta;
@@ -563,15 +567,17 @@ footer h4{
 }
 .box3{
     grid-area: box3;
-    background-color: #2E4F68;
     margin-top: 1.2rem;
     margin-right: 5rem;
     padding: 1rem;
 }
 .box3 p{
+    color: rgb(0, 0, 0);
     text-align: center;
-    margin-top: 2em;
-    color: #FDFDFD;   
+    margin-top: 6em;
+    border-style: groove;
+    border-color: rgb(0, 0, 0);
+    font-family: quasimoda; 
 }
 #videotema{
     grid-area: videotema;
@@ -590,16 +596,18 @@ footer h4{
 }
 .box4{
     grid-area: box4;
-    background-color: #2E4F68;
     margin-top: 1.2rem;
     margin-bottom: 1rem;
     margin-right: 5rem;
     padding: 1rem;
 }
 .box4 p{
+    color: rgb(0, 0, 0);
     text-align: center;
-    margin-top: 2em;
-    color: #FDFDFD;      
+    margin-top: 6em;
+    border-style: groove;
+    border-color: rgb(0, 0, 0);
+    font-family: quasimoda;  
 }
 footer{
     grid-area: footer;
