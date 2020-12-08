@@ -133,11 +133,17 @@ main img{
 .button{
     grid-area: button;
     text-align: center;
-    margin-left: 2.2rem;
+    margin-left: 2.5rem;
     border-style: groove;
     border-color: rgb(0, 0, 0);
     padding:1rem;
     width: fit-content;
+}
+.button a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: quasimoda;  
+    font-size: 1.2em;
 }
 #content5{
     grid-area: content5;
