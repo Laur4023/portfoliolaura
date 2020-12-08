@@ -11,6 +11,8 @@ nav{
     min-height: 8vh;
     background-color: #FDFDFD;
     font-family: fieldwork;
+    border-bottom-style: groove;
+    border-color: rgb(0, 0, 0);
 }
 .logo{
     color: rgb(0, 0, 0);
