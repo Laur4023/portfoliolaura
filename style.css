@@ -508,6 +508,7 @@ footer h4{
 #rumrejse img{
     width: 100%;
     height: 100%;
+    margin-left: 1.5rem;
 }
 .box1{
     grid-area: box1;
@@ -535,6 +536,7 @@ footer h4{
 #tango img{
     width: 100%;
     height: 100%;
+    margin-left: 1.5rem;
 }
 .box2{
     grid-area: box2;
@@ -562,6 +564,7 @@ footer h4{
 #volta img{
     width: 100%;
     height: 100%;
+    margin-left: 1.5rem;
 }
 .box3{
     grid-area: box3;
@@ -590,6 +593,7 @@ footer h4{
     width: 100%;
     height: 100%;
     margin-bottom: 1rem;
+    margin-left: 1.5rem;
 }
 .box4{
     grid-area: box4;
