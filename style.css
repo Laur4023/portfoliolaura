@@ -340,12 +340,12 @@ footer h4{
     }
     .container-galleri a{
         text-decoration: underline;
-        color: #FDFDFD;
+        color: rgb(0, 0, 0);
         margin-top: 1rem;
         font-size: 1.1em;
     }
     .container-galleri a:hover{
-        color: rgb(233, 230, 230);
+        color: #2E4F68;
     }
     #rumrejse{
         grid-area: rumrejse;
