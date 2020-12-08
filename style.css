@@ -363,16 +363,17 @@ footer h4{
     }
     .box1{
         grid-area: box1;
-        background-color: #2E4F68;
         padding: 1.3rem;
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
     .box1 p{
-        color: #FDFDFD;
+        color: rgb(0, 0, 0);
         font-family: quasimoda;
         text-align: center;
         font-size: 0.9em;
+        border-style: groove;
+        border-color: black;
     }
     #tango{
         display: tango;
@@ -390,16 +391,17 @@ footer h4{
     }
     .box2{
         grid-area: box2;
-        background-color: #2E4F68;
         padding: 1.5rem;
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
     .box2 p{
-        color: #FDFDFD;
+        color: rgb(0, 0, 0);
         font-family: quasimoda;
         text-align: center;
         font-size: 0.9em;
+        border-style: groove;
+        border-color: black;
     }
     #volta{
         grid-area: volta;
@@ -417,16 +419,17 @@ footer h4{
     }
     .box3{
         grid-area: box3;
-        background-color: #2E4F68;
         padding: 1.5rem;
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
     .box3 p{
-        color: #FDFDFD;
+        color: rgb(0, 0, 0);
         font-family: quasimoda;
         text-align: center;
         font-size: 0.9em;
+        border-style: groove;
+        border-color: black;
     }
     #videotema{
         grid-area: videotema;
@@ -447,13 +450,14 @@ footer h4{
         margin-top: 1rem;
         margin-bottom: 1rem;
         padding:1.5rem;
-        background-color: #2E4F68;
     }
     .box4 p{
-        color: #FDFDFD;
+        color: rgb(0, 0, 0);
         font-family: quasimoda;
         text-align: center;
         font-size: 0.9em;
+        border-style: groove;
+        border-color: black;
     }
     footer{
         background-color: #464646;
