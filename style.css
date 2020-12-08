@@ -511,7 +511,6 @@ footer h4{
 }
 .box1{
     grid-area: box1;
-    margin-top: 1.2rem;
     margin-right: 5rem;
     padding: 1rem;
 }
@@ -539,7 +538,6 @@ footer h4{
 }
 .box2{
     grid-area: box2;
-    margin-top: 1.2rem;
     margin-right: 5rem;
     padding: 1rem;
 }
@@ -567,7 +565,6 @@ footer h4{
 }
 .box3{
     grid-area: box3;
-    margin-top: 1.2rem;
     margin-right: 5rem;
     padding: 1rem;
 }
@@ -596,7 +593,6 @@ footer h4{
 }
 .box4{
     grid-area: box4;
-    margin-top: 1.2rem;
     margin-bottom: 1rem;
     margin-right: 5rem;
     padding: 1rem;
