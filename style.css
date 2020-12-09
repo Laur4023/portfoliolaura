@@ -411,13 +411,6 @@ footer h4{
     #rumrejse{
         grid-area: rumrejse;
     }
-    #rumrejse h4{
-        text-align: center;
-        margin-top: 1.4rem;
-        margin-bottom: 1.4rem;
-        font-size: 1.2em;
-        font-family: fieldwork;
-    }
     #rumrejse img{
         width: 100%;
         height: 100%;
@@ -427,6 +420,11 @@ footer h4{
         padding: 1.3rem;
         margin-top: 1rem;
         margin-bottom: 1rem;
+    }
+    .box1 h4{
+        margin-bottom: 0.2em;
+        font-size: 1.1em;
+        font-family: fieldwork;
     }
     .box1 p{
         color: rgb(0, 0, 0);
@@ -456,6 +454,11 @@ footer h4{
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
+    .box2 h4{
+        margin-bottom: 0.2em;
+        font-size: 1.1em;
+        font-family: fieldwork;
+    }
     .box2 p{
         color: rgb(0, 0, 0);
         font-family: quasimoda;
@@ -484,6 +487,11 @@ footer h4{
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
+    .box3 h4{
+        margin-bottom: 0.2em;
+        font-size: 1.1em;
+        font-family: fieldwork;
+    }
     .box3 p{
         color: rgb(0, 0, 0);
         font-family: quasimoda;
@@ -511,6 +519,11 @@ footer h4{
         margin-top: 1rem;
         margin-bottom: 1rem;
         padding:1.5rem;
+    }
+    .box4 h4{
+        margin-bottom: 0.2em;
+        font-size: 1.1em;
+        font-family: fieldwork;
     }
     .box4 p{
         color: rgb(0, 0, 0);
@@ -559,13 +572,6 @@ footer h4{
 #rumrejse{
     grid-area: rumrejse;
 }
-#rumrejse h4{
-    text-align: center;
-    margin-top: 1.2em;
-    margin-bottom: 1.4em;
-    font-family: fieldwork;
-    font-size: 1.2em;
-}
 #rumrejse img{
     width: 100%;
     height: 100%;
@@ -573,13 +579,18 @@ footer h4{
 }
 .box1{
     grid-area: box1;
-    margin-right: 5rem;
     padding: 1rem;
+    padding-right: 5.5rem;
+}
+.box1 h4{
+    margin-top: 1.2em;
+    margin-bottom: 1.4em;
+    font-family: fieldwork;
+    font-size: 1.2em;
 }
 .box1 p{
     color: rgb(0, 0, 0);
     text-align: center;
-    margin-top: 10em;
     border-style: groove;
     border-color: rgb(0, 0, 0);
     font-family: quasimoda;
@@ -604,10 +615,15 @@ footer h4{
     margin-right: 5rem;
     padding: 1rem;
 }
+.box2 h4{
+    margin-top: 1.2em;
+    margin-bottom: 1.4em;
+    font-family: fieldwork;
+    font-size: 1.2em;
+}
 .box2 p{
     color: rgb(0, 0, 0);
     text-align: center;
-    margin-top: 10em;
     border-style: groove;
     border-color: rgb(0, 0, 0);
     font-family: quasimoda;
@@ -632,10 +648,15 @@ footer h4{
     margin-right: 5rem;
     padding: 1rem;
 }
+.box3 h4{
+    margin-top: 1.2em;
+    margin-bottom: 1.4em;
+    font-family: fieldwork;
+    font-size: 1.2em;
+}
 .box3 p{
     color: rgb(0, 0, 0);
     text-align: center;
-    margin-top: 10em;
     border-style: groove;
     border-color: rgb(0, 0, 0);
     font-family: quasimoda; 
@@ -662,10 +683,15 @@ footer h4{
     margin-right: 5rem;
     padding: 1rem;
 }
+.box4 h4{
+    margin-top: 1.2em;
+    margin-bottom: 1.4em;
+    font-family: fieldwork;
+    font-size: 1.2em;
+}
 .box4 p{
     color: rgb(0, 0, 0);
     text-align: center;
-    margin-top: 10em;
     border-style: groove;
     border-color: rgb(0, 0, 0);
     font-family: quasimoda;  
