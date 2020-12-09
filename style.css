@@ -305,11 +305,13 @@ footer h4{
         text-align: center;
         border-style: groove;
         border-color: rgb(0, 0, 0);
-        padding: 0.4rem;
+        border-width: 2px;
+        padding: 0.5rem;
         margin-top: 0.5rem;
-        margin-left: 6rem;
+        margin-left: 5.5rem;
         width: fit-content;
         font-family: quasimoda;
+        border-radius: 10%;
     }
     .button a{
         text-decoration: none;
