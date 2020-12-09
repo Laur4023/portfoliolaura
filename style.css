@@ -73,13 +73,6 @@ nav{
 main{
     grid-area: main;
 }
-main p{
-    text-align: center;
-    padding-top: 1.7rem;
-    padding-bottom: 1rem;
-    font-size: 1.7rem;
-    font-family: quasimoda;
-}
 main img{
     width: 100%;
     height: 100%;
@@ -94,6 +87,9 @@ main img{
     transform: translate(-50%,-50%);
     font-size: 1.6em;
     font-family: fieldwork;
+}
+.portfoliotxt{
+    margin-left: 5em;
 }
 #content1{
     grid-area: content1;
