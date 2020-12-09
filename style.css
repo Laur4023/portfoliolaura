@@ -88,9 +88,6 @@ main img{
     font-size: 1.6em;
     font-family: fieldwork;
 }
-.portfoliotxt{
-    margin-left: 5em;
-}
 #content1{
     grid-area: content1;
 }
