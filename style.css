@@ -428,7 +428,7 @@ footer h4{
         border-color: black;
     }
     #tango{
-        display: tango;
+        grid-area: tango;
     }
     #tango h4{
         text-align: center;
