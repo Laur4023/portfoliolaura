@@ -679,7 +679,7 @@ footer h4{
     font-family: fieldwork;
     font-size: 1.2em;
 }
-#videotema video{
+#videotema iframe{
     width: 100%;
     height: 100%;
     margin-bottom: 1rem;
