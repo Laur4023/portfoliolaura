@@ -8,7 +8,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 8vh;
+    min-height: 10vh;
     background-color: #FDFDFD;
     font-family: fieldwork;
     border-bottom-style: groove;
@@ -119,11 +119,12 @@ main img{
 .button{
     grid-area: button;
     text-align: center;
-    margin-left: 2.5rem;
+    margin-left: 3rem;
     border-style: groove;
     border-color: rgb(0, 0, 0);
     padding:1rem;
     width: fit-content;
+    border-radius: 12%;
 }
 .button a{
     text-decoration: none;
@@ -311,11 +312,14 @@ footer h4{
         margin-left: 5.5rem;
         width: fit-content;
         font-family: quasimoda;
-        border-radius: 10%;
+        border-radius: 12%;
     }
     .button a{
         text-decoration: none;
         color: rgb(0, 0, 0);
+    }
+    .button a:hover{
+        color: #2E4F68;
     }
     #content5{
         background-color: #2E4F68;
