@@ -46,9 +46,12 @@ nav{
     cursor: pointer;
 }
 .burger div{
-    width: 25px;
-    height: 4px;
-    background-color: rgb(0, 0, 0);
+    width: 35px;
+    height: 8px;
+    background-color: #FDFDFD;
+    border-style: groove;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
     margin: 5px;
     transition: all 0.3s ease;
 }
